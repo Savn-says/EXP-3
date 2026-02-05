@@ -1,70 +1,94 @@
-# Getting Started with Create React App
+ [README.md](https://github.com/user-attachments/files/25086423/README.md)
+# React Router SPA Experiments
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A collection of React Single Page Application (SPA) experiments built using React Router.  
+This repository demonstrates core routing concepts including navigation, component mapping, and multi-page SPA architecture.
 
-## Available Scripts
+These experiments were developed as part of a practical lab to understand modern client-side routing in React.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 🚀 Experiments Overview
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### 🔹 Experiment 1 — Basic Client-Side Routing
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+**Objective:**  
+Implement basic routing inside a React SPA.
 
-### `npm test`
+**Summary:**  
+This experiment introduces React Router fundamentals by mapping different components to routes. It demonstrates how navigation occurs without reloading the page.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+**Key Concepts:**
+- BrowserRouter setup
+- Routes & Route mapping
+- Component-based navigation
+- SPA behavior
 
-### `npm run build`
+<img width="1161" height="524" alt="image" src="https://github.com/user-attachments/assets/9fb86860-a37e-490b-bf1f-e60c3e16eb35" />
+<img width="934" height="471" alt="image" src="https://github.com/user-attachments/assets/ddd90f1c-7ac9-4771-b8bf-81a2902fffe3" />
+<img width="912" height="447" alt="image" src="https://github.com/user-attachments/assets/90b584ca-70a2-4e32-a4ce-b63e6546856c" />
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 🔹 Experiment 2 — Navigation Using Link Component
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+**Objective:**  
+Implement user navigation using the Link component.
 
-### `npm run eject`
+**Summary:**  
+Focuses on smooth client-side navigation. Users can switch pages using navigation links without full page reload.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+**Key Concepts:**
+- Link component usage
+- Navigation bar UI
+- Smooth transitions
+- Client-side routing
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<img width="1896" height="755" alt="image" src="https://github.com/user-attachments/assets/33824f37-31fb-425c-af08-9d6cf13124f8" />
+<img width="1892" height="713" alt="image" src="https://github.com/user-attachments/assets/412c0763-749d-459c-9a84-b03edd1846be" />
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### 🔹 Experiment 3 — Multi-Page SPA Using Routing
 
-## Learn More
+**Objective:**  
+Build a structured multi-page React application.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+**Summary:**  
+Creates a dashboard and profile system using modular components. Demonstrates real-world SPA structure and routing architecture.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+**Key Concepts:**
+- Multi-page SPA layout
+- Component separation
+- Dashboard/Profile routing
+- Portfolio-style UI
 
-### Code Splitting
+<img width="1853" height="853" alt="image" src="https://github.com/user-attachments/assets/f315bc1c-25e3-48eb-a09b-0a58041c2023" />
+<img width="1829" height="682" alt="image" src="https://github.com/user-attachments/assets/a23f3d2a-8870-4a78-9b8e-002cd5c4c02b" />
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
+## 🛠 Tech Stack
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- React
+- React Router DOM
+- Vite
+- JavaScript (ES6+)
+- CSS
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## ▶ Getting Started
 
-### Advanced Configuration
+Clone the repository:
+git clone https://github.com/dhanyamuvvala/react-routing-labs.git
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Navigate to project folder:
+cd react-routing-labs
 
-### Deployment
+Install dependencies:
+npm install
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Run development server:
+npm run dev
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
