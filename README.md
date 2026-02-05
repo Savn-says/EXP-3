@@ -1,4 +1,4 @@
- [README.md](https://github.com/user-attachments/files/25086423/README.md)
+
 # React Router SPA Experiments
 
 A collection of React Single Page Application (SPA) experiments built using React Router.  
@@ -64,7 +64,7 @@ Creates a dashboard and profile system using modular components. Demonstrates re
 - Portfolio-style UI
 
 <img width="1853" height="853" alt="image" src="https://github.com/user-attachments/assets/f315bc1c-25e3-48eb-a09b-0a58041c2023" />
-<img width="1829" height="682" alt="image" src="https://github.com/user-attachments/assets/a23f3d2a-8870-4a78-9b8e-002cd5c4c02b" />
+
 
 ---
 
